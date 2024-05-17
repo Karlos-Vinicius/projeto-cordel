@@ -27,7 +27,7 @@ header h1 {
 
 header p {
     font: normal normal 2.4vh "Verdana", sans-serif;
-    padding: 20px 0px;;
+    padding-bottom: 40px;
 }
 
 header a {
@@ -46,8 +46,8 @@ main {
 
 main p {
     font: normal normal 3.5vw "Sriracha", sans-serif;
-    padding: 150px 40px;
-    line-height: 70px;
+    padding: 10vw 40px;
+    line-height: 7vw;
 }
 
 #img1 {
@@ -62,7 +62,7 @@ main p {
 }
 
 .imagem {
-    padding: 70px 30px;
+    padding: 40px 30px;
 }
 
 .imagem p {

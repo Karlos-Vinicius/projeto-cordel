@@ -48,7 +48,7 @@ main p {
 }
 
 .joaninha {
-    background: black url('images/background001.jpg') right bottom no-repeat fixed;
+    background: black url('images/background001.jpg') right center no-repeat fixed;
     background-size: cover;
     padding: 70px 0px;
 }

@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+
+:root {
+    --cor-para-imagem: rgba(0, 0, 0, 0.471);
+}
+
+* {
+    margin: 0px;
+    border: 0px;
+}
+
+header {
+    padding: 40px 0px 20px 0px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+header h1 {
+    font: bold normal 9vw "Passion One", sans-serif;
+    padding-top: 40px;
+}
+
+header p {
+    font: normal normal 2.4vh "Verdana", sans-serif;
+    padding: 20px 0px;;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+main {
+   background-color: white; 
+}
+
+main p {
+    font: normal normal 3.5vw "Sriracha", sans-serif;
+    padding: 150px 40px;
+}
+
+.joaninha {
+    background: black url('images/background001.jpg') right bottom no-repeat fixed;
+    background-size: cover;
+    padding: 70px 0px;
+}
+
+.joaninha div {
+    width: 41vw;
+    padding: 10px 5px;
+    margin-left: 40px;
+    background-color: var(--cor-para-imagem);
+    border-radius: 10px;
+}
+
+.joaninha p {
+    color: white;
+    padding: 0px;
+}
+
+.folha {
+    background: black url('images/background002.jpg') left bottom fixed;
+    background-size: cover;
+    padding: 70px 35px;
+}
+
+.folha div {
+    width: 42vw;;
+    background-color: var(--cor-para-imagem);
+    border-radius: 10px;
+}
+
+.folha p {
+    color: white;
+    padding: 5px;
+}
+
+footer {
+    background-color: black;
+    padding: 20px;
+    text-align: center
+}
+
+footer p {
+    color: white;
+    font: normal normal 2.8vw "Verdana", sans-serif;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

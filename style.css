@@ -13,6 +13,7 @@
     border: 0px;
 }
 
+
 header {
     padding: 40px 0px 20px 0px;
     text-align: center;
@@ -22,6 +23,15 @@ header {
 
 header h1 {
     font: bold normal 9vw "Passion One", sans-serif;
+    /* 
+    Se eu quiser deixar todas as letras maiúsculas
+    text-transform: uppercase;
+    */
+
+    /* 
+    As letras ficam em maiúsculas, mas as primeiras letras são maiores.
+    */
+    font-variant: small-caps;
     padding-top: 40px;
 }
 
@@ -30,13 +40,13 @@ header p {
     padding-bottom: 40px;
 }
 
-header a {
+a {
     text-decoration: none;
     color: white;
     font-weight: bold;
 }
 
-header a:hover {
+a:hover {
     text-decoration: underline;
 }
 
@@ -46,8 +56,20 @@ main {
 
 main p {
     font: normal normal 3.5vw "Sriracha", sans-serif;
-    padding: 15vw 40px;
     line-height: 7vw;
+}
+
+section {
+    padding: 12vw 0px;
+}
+
+.normal {
+    background-color: rgb(247, 247, 247);
+}
+
+.normal p, .imagem p {
+    margin-left: 60px;
+    padding: 20px;
 }
 
 #img1 {
@@ -61,18 +83,11 @@ main p {
 
 }
 
-.imagem {
-    padding: 40px 30px;
-}
-
 .imagem p {
-    color: white;
-    padding: 10px;
     display: inline-block;
-    background-color: var(--cor-para-imagem);
-    padding: 10px 10px;
-    margin: 20px 0px;
+    color: white;
     border-radius: 10px;
+    background-color: var(--cor-para-imagem);
 }
 
 footer {
@@ -84,14 +99,4 @@ footer {
 footer p {
     color: white;
     font: normal normal 2.8vw "Verdana", sans-serif;
-}
-
-footer a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-}
-
-footer a:hover {
-    text-decoration: underline;
 }

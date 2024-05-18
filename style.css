@@ -83,11 +83,16 @@ section {
 
 }
 
+.imagem {
+    box-shadow: inset 4px 8px 20px 0px #00000094;
+}
+
 .imagem p {
     display: inline-block;
     color: white;
     border-radius: 10px;
     background-color: var(--cor-para-imagem);
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.452);
 }
 
 footer {
